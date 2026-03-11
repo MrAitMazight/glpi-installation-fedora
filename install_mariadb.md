@@ -3,21 +3,21 @@
 MariaDB is the database server used by GLPI.
 
 ## Install MariaDB
-
+```bash
 sudo dnf install mariadb-server -y
-
+```
 ## Start the service
-
+```bash
 sudo systemctl enable --now mariadb
-
+```
 ## Verify the service
-
+```bash
 sudo systemctl status mariadb
-
+```
 ## Secure MariaDB
-
+```bash
 sudo mysql_secure_installation
-
+```
 Explanation:
 This command improves database security.
 
