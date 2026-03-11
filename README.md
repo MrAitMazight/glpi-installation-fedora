@@ -32,3 +32,8 @@ Fedora 43
 9. Access GLPI via browser
 
 ## Access
+## Screenshots
+
+![GLPI Login](loginGLPI.png)
+
+![GLPI Dashboard](dashboard.png)
