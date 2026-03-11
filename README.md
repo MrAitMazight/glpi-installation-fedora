@@ -36,11 +36,15 @@ Fedora 43
 ## Screenshots
 
 ![GLPI Install](install.png)
+Capture de l’écran d’installation de GLPI.
 
 ![GLPI Database](Database.png)
+Connecte à la base de données GLPI.
 
 ![GLPI Login](loginGLPI.png)
+Page de connexion de GLPI.
 
 ![GLPI Dashboard](DashboardGLPI.png)
+Tableau de bord après connexion.
 
 
