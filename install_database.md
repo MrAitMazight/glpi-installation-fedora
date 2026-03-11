@@ -10,8 +10,9 @@ In this project we use MariaDB.
 
 Open the terminal and run:
 
+```bash
 sudo mysql -u root -p
-
+```
 Explanation:
 
 This command connects to the MariaDB server as the root administrator.
@@ -22,8 +23,9 @@ This command connects to the MariaDB server as the root administrator.
 
 Run the following command:
 
+```bash
 CREATE DATABASE glpi_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-
+```
 Explanation:
 
 This creates a new database called glpi_db.
@@ -34,8 +36,9 @@ The UTF8MB4 character set is recommended for GLPI.
 
 ## Step 3 — Create a database user
 
+```bash
 CREATE USER 'glpi_user'@'localhost' IDENTIFIED BY 'StrongPassword';
-
+```
 Explanation:
 
 This creates a dedicated user for GLPI.
@@ -45,9 +48,9 @@ Using a dedicated user improves security.
 ---
 
 ## Step 4 — Grant permissions
-
+```bash
 GRANT ALL PRIVILEGES ON glpi_db.* TO 'glpi_user'@'localhost';
-
+```
 Explanation:
 
 This command allows the GLPI user to manage the database.
@@ -55,9 +58,9 @@ This command allows the GLPI user to manage the database.
 ---
 
 ## Step 5 — Reload privileges
-
+```bash
 FLUSH PRIVILEGES;
-
+```
 Explanation:
 
 This reloads the privilege tables.
@@ -65,9 +68,9 @@ This reloads the privilege tables.
 ---
 
 ## Step 6 — Exit MariaDB
-
+```bash
 EXIT;
-
+```
 ---
 
 ## Database information used in GLPI installation
