@@ -32,8 +32,15 @@ Fedora 43
 9. Access GLPI via browser
 
 ## Access
+
 ## Screenshots
+
+![GLPI Install](install.png)
+
+![GLPI Database](Database.png)
 
 ![GLPI Login](loginGLPI.png)
 
-![GLPI Dashboard](dashboard.png)
+![GLPI Dashboard](DashboardGLPI.png)
+
+
